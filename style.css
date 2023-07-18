@@ -4,8 +4,11 @@
   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,800;1,700&display=swap');
   font-family: 'Open Sans', sans-serif;
 }
+header{
+    
+}
 
-/* nav bar styles starts */
+/* nav bar styles start */
 .nav-container{
 display: flex;
 justify-content: space-around;
@@ -49,9 +52,68 @@ height: 24px;width: fit-content
 .follow-logo2 img{
 height: 24px; width:fit-content;
 }
-/* nav bar styles ends */
+/* nav bar styles end */
 
 
+/* main1 styles start */
+.main1{
+    display: flex; justify-content: space-around; align-items: center;
+}
+.instant-play, .download, .people {
+    display: flex; align-items: center; gap: .3rem; 
+}
+.main1-article{
+    margin-left: 7rem;
+}
+.main1-article > .goat{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%); margin-top: -2rem;
+background-clip: text; 
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 6rem;}
+.main1-article > .main1-title { font-weight: 600;
+    color: #0B0223; margin-top: 3rem;
+
+font-size: 3rem;
+}
+ .main1 .details{
+  margin-top: -6rem  ;
+}
+.instant-play-article, .download-article, .people-article {
+    color: #534C64;
+font-size: 1.15rem;
+}
+.buttons{
+    display: flex; gap: 1.5rem ; margin-top: 2rem;
+}
+.button1{
+    color: #FFF;
+    font-size: 1.4rem;
+    border-radius: 48px;
+background-color: palevioletred;
+padding: 21px 40px;
+font-weight: 600;
+}
+.button2{
+    color: #FFF;
+    font-size: 1.4rem;    border-radius: 48px;
+    background-color: skyblue;
+    padding: 21px 40px;font-weight: 600;
+}
+
+.main1-img img{
+    width: 95%;
+}
+
+
+
+
+
+
+
+
+ 
+/* main1 styles end */
 
 
 
@@ -60,11 +122,29 @@ height: 24px; width:fit-content;
     .nav-container, .menus,.nav-menus{
         flex-direction: column; gap: 2rem; text-align: center; align-items: center;
     }
+    .main1{
+        flex-direction: column-reverse; 
+    }
+    .main1 img{
+        width: 100%; height: auto;
+    }
+    .main1-article,.main1-title, .goat, .details, .buttons{
+        text-align: center; align-items: center; margin-right: 2.5rem; 
+    }
 }
 /* tablet views */
 @media screen and (min-width:576px) and (max-width:992px) {
     .nav-container, .menus,.nav-menus{
         flex-direction: column; gap: 2rem; text-align: center; align-items: center;
+    }
+    .main1{
+        flex-direction: column-reverse; 
+    }
+    .main1 img{
+        width: 100%; height: auto;
+    }
+    .main1-article,.main1-title, .goat, .details, .buttons{
+        text-align: center; align-items: center; margin-right: 2.5rem; 
     }
 }
 
