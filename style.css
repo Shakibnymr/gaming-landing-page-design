@@ -1,0 +1,51 @@
+/* commonly shared styles */
+* {
+    
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,800;1,700&display=swap');
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.nav-container{
+display: flex;
+justify-content: space-around;
+}
+.nav-logo-container{
+display: flex; align-items: center; gap: 1rem;
+}
+.nav-logo > img {
+width: 90px; height: 45px;
+}
+.nav-title{
+font-size: 2.8rem; color: #0B0223;
+}
+
+
+.nav-menus{
+    display: flex; align-items: center; color: #3C354F; font-size: 1.15rem;
+}
+
+.menus{
+    display: flex; gap: 3rem;
+}
+
+
+
+.follow{
+display: flex; border: 1px solid white;
+border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+width: auto;
+gap: 1rem;
+align-items: center;
+margin-left: 3rem;
+}
+.follow-title{
+font-size: 1.15rem;
+}
+.follow-logo1 img{
+height: 24px;width: fit-content
+}
+.follow-logo2 img{
+height: 24px; width:fit-content;
+}
