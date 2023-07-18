@@ -129,7 +129,7 @@ font-weight: 700; color: violet;
 }
 .gamer-description{
     color: #534C64;
-text-align: right;
+
 font-size: 1.15rem;
 font-weight: 400;
 line-height: 30px;
@@ -142,7 +142,27 @@ font-weight: 500;
 line-height: 45px;
 }
 /* gamer styles end */
+/* online gaming styles start */
+.online-description{
+    text-align: center; 
+}
+.online-description > .og {
+    color: #0B0223;
+font-size: 3rem;
+margin-top: 5rem;
+font-weight: 700;
+}
+.gamer-description .two {
+ margin-top: -5rem;
+}
+.funny{
+    color: violet;
+}
 
+
+
+
+/* online gaming styles end */
 /* mobile views */
 @media screen and (max-width:576px) {
     .nav-container, .menus,.nav-menus{
