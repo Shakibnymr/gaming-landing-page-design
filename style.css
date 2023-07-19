@@ -275,6 +275,27 @@ background-color: white;
 padding: 1.321rem 2.5rem;font-weight: 600; margin-left: 2.5rem;
 }
 /* career styles end */
+/* card styles start */
+.card{
+    padding: 7rem;
+}
+.card1, .card2, .card3, .card4, .card4, .card5, .card6, .card7, .card8, .card9 {
+    display: flex; flex-wrap: wrap; align-items: center; border-radius: 50px; justify-content: center;padding: 1rem;
+    border: 1px solid wheat; gap: 5px;
+}
+
+ .card9pc img, .card8pc img, .card1pc img, .card2pc img, .card3pc img, .card4pc img, .card5pc img, .card6pc img, .card7pc img {
+
+width: 3rem;
+height: 3rem; border-radius: 3rem;
+}
+.card1d, .card2d, .card3d, .card4d, .card5d, .card6d, .card7d, .card8d, .card9d{
+color: #0B0223;
+font-size: 1.125rem; text-align: center;
+font-weight: 600;}
+
+
+/* card styles end */
 /* mobile views */
 @media screen and (max-width:576px) {
     .nav-container, .menus,.nav-menus{
@@ -336,7 +357,6 @@ margin-left: -2.2rem;
     width: 60%; height: auto; margin-left: 14rem;
 }
 }
-
    
 /* tablet views */
 @media screen and (min-width:576px) and (max-width:992px) {
