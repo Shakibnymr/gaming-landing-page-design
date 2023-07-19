@@ -296,6 +296,20 @@ font-weight: 600;}
 
 
 /* card styles end */
+/* footer styles start */
+.footer{
+    background-color: #0B0223; border: #0B0223 solid 1px; width: 100%; height: auto;
+}
+.simple, .simple1, .simple2{ column-gap: 2rem; justify-content: center;
+    display: flex;
+}
+.center{
+    margin-left: 33rem;
+}
+
+
+
+/* footer styles end */
 /* mobile views */
 @media screen and (max-width:576px) {
     .nav-container, .menus,.nav-menus{
